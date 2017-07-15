@@ -28,7 +28,7 @@ src_unpack() {
 
 
 src_configure() {
-	configure_options="--prefix=/home/moll/opt"
+	configure_options="--prefix=/usr"
 
 	if use pam ; then
 		configure_options="$configure_options --with-pam"
